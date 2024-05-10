@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/rc.png";
 import Tilt from "react-parallax-tilt";
+import { SiGmail } from "react-icons/si";
+
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -105,6 +107,17 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
+              <li className="social-icons">
+                <a  
+                  href="mailto:rahulc.dev13@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <SiGmail />
+                </a>
+              </li>
+
             </ul>
           </Col>
         </Row>
