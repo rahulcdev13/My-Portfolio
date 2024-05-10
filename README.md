@@ -3,7 +3,7 @@
   <a href="https://rahul-chavan-portfolio.vercel.app/" target="_blank">rahulc.tech</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./Images/rsc.png" />
 </div>
 
 <br/>
