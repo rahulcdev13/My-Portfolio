@@ -3,9 +3,7 @@
   <a href="https://rahul-chavan-portfolio.vercel.app/" target="_blank">rahulc.tech</a>
 </h2>
 <div align="center">
-  <!-- <img alt="Demo" src="./Images/readme-img1.png" /> -->
-  ![rsc](https://github.com/rahulcdev13/My-Portfolio/assets/105979644/05a4eced-60b6-4f5c-ac3d-ff6660bed206)
-
+  <img alt="Demo" src="(https://github.com/rahulcdev13/My-Portfolio/assets/105979644/05a4eced-60b6-4f5c-ac3d-ff6660bed206" /> 
 </div>
 
 <br/>
