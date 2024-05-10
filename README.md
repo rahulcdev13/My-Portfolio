@@ -3,7 +3,12 @@
   <a href="https://rahul-chavan-portfolio.vercel.app/" target="_blank">rahulc.tech</a>
 </h2>
 <div align="center">
-  <!-- <img alt="Demo" src="./Images/readme-img1.png" /> -->
+<<<<<<< HEAD
+  <img alt="Demo" src="./Images/rsc.PNG" />
+=======
+ ![homepage](https://github.com/rahulcdev13/My-Portfolio/assets/105979644/05a4eced-60b6-4f5c-ac3d-ff6660bed206)
+  ![homepage](https://github.com/rahulcdev13/rahulcdev13/assets/105979644/f138921c-1938-4b4f-8a26-a82457d3c5ec)
+>>>>>>> 4af834598441c0df30a41ee14d29e9ed4293d2b2
 </div>
 
 <br/>
