@@ -8,6 +8,7 @@ import editor from "../../Assets/Projects/weathers.png";
 import chatify from "../../Assets/Projects/youtube.PNG";
 import suicide from "../../Assets/Projects/covids.png";
 import bitsOfCode from "../../Assets/Projects/food.png";
+import netflix from "../../Assets/Projects/netflixs.png";
 
 function Projects() {
   return (
@@ -18,15 +19,25 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few personal projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={netflix}
+              isBlog={false}
+              title="Netflix Clone"
+              description="I implemented a Netflix app using React.js, Tailwind CSS, and Redux Toolkit. In this project, I integrated a live Netflix API to display movies categorized by genres. Additionally, I incorporated a live chat functionality powered by GPT for enhanced interactivity. The app also features user authentication with sign-in and sign-up functionalities, along with session management."
+              ghLink="https://github.com/rahulcdev13/Namaste-Netflix-GPT/"
+              demoLink="https://namaste-netflix-gpt-zeta.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
               title="Food Delivery App"
-              description="Personal Online food order delivery apps and we make the copy of swiggy app and i used also swiggy live API in this project it is very cool and very informative."
+              description="The Food Delivery App built with React.js is a responsive web application allowing users to browse nearby restaurants, view menus, customize orders. The app integrates with a backend API for fetching real time swiggy API restaurant data. The frontend is developed using React.js with React Router for navigation and state management using Redux."
               ghLink="https://github.com/rahulcdev13/Namaste-React-Food-Order"
               demoLink="https://namaste-react-food-order.vercel.app/"
             />
@@ -37,7 +48,7 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Youtube Clone"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="The YouTube Clone project is a web application that replicates key features of YouTube, allowing users to view videos. The frontend, built with React.js, provides a responsive user interface with features like video playback, search functionality. This project aims to YouTube while showcasing modern web development practices and technologies."
               ghLink="https://github.com/rahulcdev13/Namaste-Youtube-App"
               demoLink="https://namaste-youtube-app.vercel.app/"
             />
@@ -48,7 +59,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Weather App"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="A weather app using React.js is a responsive web application that displays current weather conditions, forecasts. Users can search for specific locations to view weather details, including temperature, humidity, wind speed, and precipitation. The app integrates with a weather API to fetch real-time weather information and updates dynamically."
               ghLink="https://github.com/rahulcdev13/Weather-App-With-API"
               demoLink="https://weather-app-with-api.vercel.app/"              
             />
@@ -59,7 +70,7 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="Daily Expenses App"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="A Daily Expenses App built with React.js is a web application designed to help users track their daily expenses and manage their budgets efficiently. The app allows users to log expenses with details such as category, amount, and date. Users can view their spending history, categorize expenses, and set budget limits for different categories."
               ghLink="https://github.com/rahulcdev13/daily-expenses"
               demoLink="https://daily-expenses-nu.vercel.app/"
             />
@@ -70,19 +81,17 @@ function Projects() {
               imgPath={suicide}
               isBlog={false}
               title="Covid Live Tracker"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/rahulcdev13/Covid-19-Live"
+              description="A COVID-19 Live Tracker App built with React.js is a web application that provides real-time updates and statistics related to the COVID-19 pandemic. The app fetches data from reliable sources such as the World Health Organization (WHO) display country-specific COVID-19 metrics. Users can view statistics such as total cases, active, recovered cases, and deaths."
+              ghLink="https://github.com/rahulcdev13/Covid-19-Live-Tracker-App"
               demoLink="https://covid-19-live.vercel.app/"
             />
-          </Col>
-
+          </Col> 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
               title="E-Commerce Website"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="An E-commerce App built with React.js is a dynamic web application that enables users to browse products, add items to cart, make purchases, and manage orders. The app integrates with a backend API to fetch product data, handle user authentication, process payments, and manage inventory."
               ghLink="https://github.com/rahulcdev13/Redux-Ecommerce-app"
               demoLink="https://e-commerce-react-context-api.vercel.app/"
             />

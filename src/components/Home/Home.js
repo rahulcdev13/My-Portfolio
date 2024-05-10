@@ -24,6 +24,7 @@ function Home() {
                 I'M
                 <strong className="main-name"> RAHUL CHAVAN</strong>
               </h1>
+              <h6 style={{ fontSize:"25px", marginLeft:"40px",textAlign: "left" }}>Passionate Front-End React Developer Based In Pune, Maharashtra, India </h6>
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
