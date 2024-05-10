@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I am currently employed as a software developer at Simplify Healthcare.
             <br />
-            I have completed Integrated BE in Computer Science and engineering.
+            My current focus revolves around leveraging the latest React.js features to build scalable and maintainable frontend architectures. I'm enthusiastic about staying abreast of industry trends, continuously learning, and applying innovative solutions to enhance user experiences
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -27,6 +27,9 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Nature PhotoGraphy
             </li>
           </ul>
 

@@ -7,6 +7,8 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import { ImBlog } from "react-icons/im";
+import { FaWhatsapp } from "react-icons/fa";
+
 import {
   AiFillStar,
   AiOutlineHome,
@@ -93,15 +95,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
-                href="https://rahul-chavan-portfolio.vercel.app/"
+                href="https://wa.link/7czjkn"
                 target="_blank"
                 rel="noreferrer"
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <FaWhatsapp style={{ marginBottom: "2px" }} /> What's Up
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
