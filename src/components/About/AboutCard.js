@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I am currently employed as a software developer at Simplify Healthcare.
             <br />
-            My current focus revolves around leveraging the latest React.js features to build scalable and maintainable frontend architectures. I'm enthusiastic about staying abreast of industry trends, continuously learning, and applying innovative solutions to enhance user experiences
+            My current focus revolves around leveraging the latest React.js features to build scalable and maintainable frontend architectures. I'm enthusiastic about staying abreast of industry trends, continuously learning, and applying innovative solutions to enhance user experiences.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

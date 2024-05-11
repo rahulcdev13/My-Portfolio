@@ -26,7 +26,7 @@ function Home2() {
               <br />
               <br />I am fluent in Front-end like
               <i>
-                <b className="purple"> React JS, Javascript and HTML/CSS. </b>
+                <b className="purple"> React JS, Node JS,Javascript and HTML/CSS. </b>
               </i>
               <br />
               <br />
