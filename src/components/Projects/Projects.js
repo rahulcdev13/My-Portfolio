@@ -34,7 +34,7 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={bitsOfCode}
               isBlog={false}
               title="Food Delivery App"
               description="The Food Delivery App built with React.js is a responsive web application allowing users to browse nearby restaurants, view menus, customize orders. The app integrates with a backend API for fetching real time swiggy API restaurant data. The frontend is developed using React.js with React Router for navigation and state management using Redux."
@@ -45,7 +45,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={chatify}
               isBlog={false}
               title="Youtube Clone"
               description="The YouTube Clone project is a web application that replicates key features of YouTube, allowing users to view videos. The frontend, built with React.js, provides a responsive user interface with features like video playback, search functionality. This project aims to YouTube while showcasing modern web development practices and technologies."
